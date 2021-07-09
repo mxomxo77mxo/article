@@ -1,0 +1,16 @@
+Hello!
+
+You will need to create a simple page with article data and comments list. You can use codesandbox.io.
+
+Inside utils.js you can find 2 exported objects articleAPI, commentsAPI. (Feel free to rename the file or move things)
+Please create a Redux store where you can keep article data and comments list.
+Requirements:
+  1. Use React/Redux.
+  2. No fancy styling needed. Maybe add comments/replies margins to easily indicate where is reply.
+  3. For side effects you can use redux-thunk or whatever you want.
+  4. Folder structure you are comfortable with
+
+As a user I want to be able to see article title, date and text. Under the article I want to see
+comments and replies, I also want to have a simple like button to like a comment.
+
+Note: For the like button it's just enough to have +1 on every click, not needed to setup additional logic.
